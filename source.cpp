@@ -8,6 +8,6 @@ return vector<int>{1};
 }
 
 int main(){
-	cout<<func()[1]<<endl;
+	cout<<func()[0]<<endl;
 	return 0;
 }
