@@ -1,5 +1,3 @@
-#include <iostream>
-
 class ClassA {
  public:
 	ClassA();
@@ -10,8 +8,3 @@ class ClassA {
 	ClassA& operator=(ClassA &&)=delete;        // Move assign
 	int A;
 };
-int main () {
-	ClassA x;
-	x.A=1;
-	return 0;
-} 
